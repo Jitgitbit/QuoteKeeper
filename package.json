@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "express": "~4.15.2",
-    "morgan": "~1.8.1",
+    "morgan": "^1.8.2",
     "wdio-spec-reporter": "^0.1.2"
   },
   "devDependencies": {
