@@ -4,12 +4,12 @@ IMPORTANT:
 
 THD@OCBL0098 MINGW64 ~/Desktop/CodeProjects/QuoteKeeper (master)
 $ npm install
-npm WARN deprecated phantomjs-prebuilt@2.1.16: this package is now deprecated
 npm WARN deprecated superagent@3.8.3: Please note that v5.0.1+ of superagent removes User-Agent header by default, therefore you may need to add it yourself (e.g. GitHub blocks requests without a User-Agent header).  This notice will go away with v5.0.2+ once it is released.
+npm WARN deprecated core-js@1.2.7: core-js@<2.6.8 is no longer maintained. Please, upgrade to core-js@3 or at least to actual version of core-js@2.
 npm WARN deprecated to-iso-string@0.0.2: to-iso-string has been deprecated, use @segment/to-iso-string instead.
 npm WARN deprecated jade@0.26.3: Jade has been renamed to pug, please install the latest version of pug instead of jade
+npm WARN deprecated phantomjs-prebuilt@2.1.16: this package is now deprecated
 npm WARN deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
-npm WARN deprecated core-js@1.2.7: core-js@<2.6.8 is no longer maintained. Please, upgrade to core-js@3 or at least to actual version of core-js@2.
 
 > fibers@1.0.15 install C:\Users\THD\Desktop\CodeProjects\QuoteKeeper\node_modules\fibers
 > node build.js || nodejs build.js
@@ -69,4 +69,7 @@ npm ERR! Failed at the fibers@1.0.15 install script.
 npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     C:\Users\THD\AppData\Roaming\npm-cache\_logs\2019-10-30T14_57_23_002Z-debug.log
+npm ERR!     C:\Users\THD\AppData\Roaming\npm-cache\_logs\2019-10-31T12_57_00_979Z-debug.log
+
+THD@OCBL0098 MINGW64 ~/Desktop/CodeProjects/QuoteKeeper (master)
+$
