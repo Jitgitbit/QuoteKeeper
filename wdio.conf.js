@@ -1,5 +1,7 @@
+// wdio.conf.js
 const app = require('./app');
 const port = process.env.PORT || 4001;
+const {connectAndDrop, disconnect} = require('./database');
 
 let expressServer;
 
@@ -19,9 +21,11 @@ exports.config = {
   services: ['phantomjs'],
 
   async onPrepare() {
+    connectAndDrop();
     expressServer = app.listen(port);
   },
   async onComplete() {
+    disconnect();
     await expressServer.close();
   },
 };

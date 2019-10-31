@@ -1,5 +1,5 @@
-// test/features/user-visits-root-test.js
 const {assert} = require('chai');
+
 
 describe('User visits root', () => {
   describe('posting a quote', () => { 
