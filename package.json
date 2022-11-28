@@ -22,6 +22,6 @@
     "mocha": "^3.0.0",
     "wdio-mocha-framework": "^0.6.4",
     "wdio-selenium-standalone-service": "0.0.9",
-    "webdriverio": "^4.2.3"
+    "webdriverio": "^7.27.0"
   }
 }
